@@ -23,28 +23,28 @@ const MinisterioRochinha = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/public/images/kids1.jpg"
+                src="/public/images/rochinha1.jpg"
                 alt="Ministério Rochinha"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/public/images/kids2.jpg"
+                src="/public/images/rochinha2.jpg"
                 alt="Ministério Rochinha"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/public/images/kids3.jpg"
+                src="/public/images/rochinha3.jpg"
                 alt="Ministério Rochinha"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/public/images/kids4.jpg"
+                src="/public/images/rochinha4.jpg"
                 alt="Ministério Rochinha"
                 className="w-full h-full object-cover"
               />
