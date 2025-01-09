@@ -14,7 +14,7 @@ const Footer = () => {
           
           <div>
             <h4 className="text-lg font-semibold mb-4">Contato</h4>
-            <p className="text-sm mb-2">Telefone: (62) 9999-9999</p>
+            <p className="text-sm mb-2">Telefone: (62) 99373-7958</p>
             <p className="text-sm">Email: contato@embaixadarochaviva.com</p>
           </div>
           
@@ -38,7 +38,7 @@ const Footer = () => {
                 <Facebook size={24} />
               </a>
               <a
-                href="https://wa.me/5562999999999"
+                href="https://wa.me/5562993737958"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-church-secondary transition-colors"

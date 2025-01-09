@@ -13,7 +13,7 @@ const News = () => {
       id: 2,
       title: "Projeto de Vida",
       date: "15 de Dezembro, 2024",
-      description: "Participe da campanha projeto de vidda, apresente a Deus os seus planos e ele os abençoará",
+      description: "Participe da campanha projeto de vida, apresente a Deus os seus planos e ele os abençoará",
       image: "/images/projeto.png"
     },
   ];

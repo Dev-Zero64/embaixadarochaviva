@@ -12,13 +12,13 @@ const Videos = () => {
       id: 2,
       title: "Palavra da Semana",
       thumbnail: "/images/pastor.jpg",
-      embedUrl: "https://www.youtube.com/embed/PqNd6bncP5c?si=7XKYqTTW_FkbQjVs"
+      embedUrl: "https://www.youtube.com/embed/4-eCm5a6SJ4?si=Y7XLQXNb2zVx-v5_"
     },
     {
       id: 3,
       title: "Noite da Virada",
       thumbnail: "/images/newyear.png",
-      embedUrl: "videos/newyearvideo.mp4"
+      embedUrl: "https://www.youtube.com/embed/5iweZMRcUWw?si=Gf3poIoAnAHxBQg6"
     }
   ];
 

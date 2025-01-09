@@ -11,7 +11,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log("Form submitted:", formData);
-    // Add form submission logic here
+    // Add form submission logic here later
   };
 
   return (
@@ -30,7 +30,7 @@ const Contact = () => {
                   <Phone className="text-church-primary" size={24} />
                   <div>
                     <h3 className="font-semibold">Telefone</h3>
-                    <p className="text-gray-600">(62) 9999-9999</p>
+                    <p className="text-gray-600">(62) 99373-7958</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
