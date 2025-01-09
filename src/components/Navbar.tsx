@@ -14,6 +14,7 @@ const Navbar = () => {
     { name: "Endereço", path: "/endereco" },
     { name: "Ministério Rochinha", path: "/ministerio-rochinha" },
     { name: "Ativadores", path: "/ativadores" },
+    { name: "Cadastro", path: "/cadastro" },
   ];
 
   return (
