@@ -8,7 +8,6 @@ import MinisterioRochinha from "./pages/MinisterioRochinha";
 import Ativadores from "./pages/Ativadores";
 import News from "./pages/News";
 import Videos from "./pages/Videos";
-import Registration from "./pages/Registration";
 
 const App = () => {
   return (
@@ -23,7 +22,6 @@ const App = () => {
           <Route path="/ativadores" element={<Ativadores />} />
           <Route path="/noticias" element={<News />} />
           <Route path="/videos" element={<Videos />} />
-          <Route path="/cadastro" element={<Registration />} />
         </Routes>
       </Layout>
     </BrowserRouter>
