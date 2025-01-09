@@ -20,8 +20,8 @@ export default {
     extend: {
       colors: {
         church: {
-          primary: "#1a365d",
-          secondary: "#c4a777",
+          primary: "#000000",
+          secondary: "#D4AF37",
           accent: "#f8fafc",
         },
         border: "hsl(var(--border))",
