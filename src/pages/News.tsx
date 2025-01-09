@@ -4,18 +4,18 @@ const News = () => {
   const newsItems = [
     {
       id: 1,
-      title: "Culto de Celebração",
-      date: "28 de Março, 2024",
-      description: "Venha participar do nosso culto especial de celebração neste domingo às 19h.",
-      image: "/images/reunion.jpg"
+      title: "Noite da Virada",
+      date: "31 de Dezembro, 2024",
+      description: "Venha você e sua família celebrar a Virada do Ano conosco!",
+      image: "/images/newyear.png"
     },
     {
       id: 2,
-      title: "Encontro de Jovens",
-      date: "30 de Março, 2024",
-      description: "Grande encontro de jovens com louvor, palavra e muita comunhão.",
-      image: "/images/choir.jpg"
-    }
+      title: "Projeto de Vida",
+      date: "15 de Dezembro, 2024",
+      description: "Participe da campanha projeto de vidda, apresente a Deus os seus planos e ele os abençoará",
+      image: "/images/projeto.png"
+    },
   ];
 
   return (

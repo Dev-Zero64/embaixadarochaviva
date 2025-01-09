@@ -6,13 +6,19 @@ const Videos = () => {
       id: 1,
       title: "Louvor e Adoração",
       thumbnail: "/images/choir.jpg",
-      embedUrl: "https://www.youtube.com/embed/your-video-id"
+      embedUrl: "https://www.youtube.com/embed/N1fVZ-2qtzQ?si=Rj0i9oPwQy_vex9B"
     },
     {
       id: 2,
       title: "Palavra da Semana",
       thumbnail: "/images/pastor.jpg",
-      embedUrl: "https://www.youtube.com/embed/your-video-id"
+      embedUrl: "https://www.youtube.com/embed/PqNd6bncP5c?si=7XKYqTTW_FkbQjVs"
+    },
+    {
+      id: 3,
+      title: "Noite da Virada",
+      thumbnail: "/images/newyear.png",
+      embedUrl: "videos/newyearvideo.mp4"
     }
   ];
 
@@ -37,7 +43,7 @@ const Videos = () => {
                   src={video.embedUrl}
                   title={video.title}
                   className="w-full h-full"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
               </div>

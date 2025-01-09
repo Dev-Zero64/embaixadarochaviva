@@ -14,7 +14,7 @@ const Home = () => {
           loop
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="/videos/church-video.mp4" type="video/mp4" />
+          <source src={"/videos/video.mp4"} type="video/mp4" />
           Seu navegador não suporta vídeos.
         </video>
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center text-white">
