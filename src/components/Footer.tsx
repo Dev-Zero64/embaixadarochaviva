@@ -22,7 +22,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Redes Sociais</h4>
             <div className="flex space-x-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/embaixadarochaviva/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-church-secondary transition-colors"
@@ -30,7 +30,7 @@ const Footer = () => {
                 <Instagram size={24} />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/embaixadarochaviva"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-church-secondary transition-colors"

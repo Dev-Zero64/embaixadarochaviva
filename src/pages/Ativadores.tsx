@@ -23,28 +23,28 @@ const Ativadores = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/ativadores1.jpg"
+                src="public/images/teens3.jpg"
                 alt="Ativadores"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/ativadores2.jpg"
+                src="public/images/teens4.jpg"
                 alt="Ativadores"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/ativadores3.jpg"
+                src="public/images/teens1.jpg"
                 alt="Ativadores"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/ativadores4.jpg"
+                src="public/images/teens2.jpg"
                 alt="Ativadores"
                 className="w-full h-full object-cover"
               />

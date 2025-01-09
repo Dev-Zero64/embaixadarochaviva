@@ -1,8 +1,8 @@
 const Home = () => {
   const images = [
-    "/church1.jpg",
-    "/church2.jpg",
-    "/church3.jpg",
+    "/images/reunion.jpg",
+    "/images/outside.png",
+    "/images/pastor.jpg",
   ];
 
   return (

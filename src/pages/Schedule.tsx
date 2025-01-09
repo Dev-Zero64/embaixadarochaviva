@@ -3,17 +3,17 @@ const Schedule = () => {
     {
       day: "Domingo",
       time: "18:30",
-      description: "Culto de Celebração",
+      description: "Celebração da Família",
     },
     {
       day: "Quarta",
       time: "19:45",
-      description: "Culto de Ensino",
+      description: "Noite da Benção",
     },
     {
       day: "Sábado",
       time: "18:30",
-      description: "Culto de Jovens",
+      description: "Ativadores",
     },
   ];
 
