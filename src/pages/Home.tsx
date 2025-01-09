@@ -8,15 +8,11 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       <section className="relative h-[60vh] bg-church-primary overflow-hidden">
-        <video
-          autoPlay
-          muted
-          loop
+        <img
+          src="/images/church5.jpg"
+          alt="Foto de destaque"
           className="absolute inset-0 w-full h-full object-cover"
-        >
-          <source src={"/videos/video.mp4"} type="video/mp4" />
-          Seu navegador não suporta vídeos.
-        </video>
+        />
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center text-white">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">

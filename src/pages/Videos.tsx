@@ -4,22 +4,9 @@ const Videos = () => {
   const videoItems = [
     {
       id: 1,
-      title: "Louvor e Adoração",
-      thumbnail: "/images/choir.jpg",
-      embedUrl: "https://www.youtube.com/embed/N1fVZ-2qtzQ?si=Rj0i9oPwQy_vex9B"
+      title: "Apresentação das Crianças",
+      embedUrl: "https://www.youtube.com/embed/dZs0nAwXGR4?si=b7itEr3bcEaBo6pz"
     },
-    {
-      id: 2,
-      title: "Palavra da Semana",
-      thumbnail: "/images/pastor.jpg",
-      embedUrl: "https://www.youtube.com/embed/4-eCm5a6SJ4?si=Y7XLQXNb2zVx-v5_"
-    },
-    {
-      id: 3,
-      title: "Noite da Virada",
-      thumbnail: "/images/newyear.png",
-      embedUrl: "https://www.youtube.com/embed/5iweZMRcUWw?si=Gf3poIoAnAHxBQg6"
-    }
   ];
 
   return (
@@ -30,11 +17,6 @@ const Videos = () => {
         {videoItems.map((video) => (
           <Card key={video.id} className="hover:shadow-lg transition-shadow duration-300">
             <CardHeader>
-              <img
-                src={video.thumbnail}
-                alt={video.title}
-                className="w-full h-48 object-cover rounded-t-lg cursor-pointer"
-              />
               <CardTitle className="mt-4">{video.title}</CardTitle>
             </CardHeader>
             <CardContent>

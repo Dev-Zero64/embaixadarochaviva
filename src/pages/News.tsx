@@ -4,6 +4,13 @@ const News = () => {
   const newsItems = [
     {
       id: 1,
+      title: "Unção da Vida",
+      date: "05 de Janeiro, 2025",
+      description: "E servireis ao SENHOR vosso Deus, e ele abençoará o vosso pão e a vossa água; e Eu tirarei do meio de vós as enfermidades.Êxodo 23:25.",
+      image: "/images/evento3.png"
+    },
+    {
+      id: 3,
       title: "Noite da Virada",
       date: "31 de Dezembro, 2024",
       description: "Venha você e sua família celebrar a Virada do Ano conosco!",
@@ -16,6 +23,7 @@ const News = () => {
       description: "Participe da campanha projeto de vida, apresente a Deus os seus planos e ele os abençoará",
       image: "/images/projeto.png"
     },
+    
   ];
 
   return (
