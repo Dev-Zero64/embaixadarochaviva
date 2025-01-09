@@ -1,4 +1,11 @@
 const Ativadores = () => {
+  const images = [
+    "/images/ativadores1.jpg",
+    "/images/ativadores2.jpg",
+    "/images/ativadores3.jpg",
+    "/images/ativadores4.jpg",
+  ];
+
   return (
     <div className="min-h-screen py-16 bg-church-accent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -23,28 +30,28 @@ const Ativadores = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="public/images/ativadores3.jpg"
+               src={images[2]}
                 alt="Ativadores"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="public/images/ativadores4.jpg"
+                src={images[3]}
                 alt="Ativadores"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="public/images/ativadores1.jpg"
+                src={images[0]}
                 alt="Ativadores"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="public/images/ativadores2.jpg"
+                src={images[1]}
                 alt="Ativadores"
                 className="w-full h-full object-cover"
               />
