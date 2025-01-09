@@ -38,7 +38,7 @@ const Footer = () => {
                 <Facebook size={24} />
               </a>
               <a
-                href="https://wa.me/5562993737958"
+                href="https://wa.me/5562996264498"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-church-secondary transition-colors"

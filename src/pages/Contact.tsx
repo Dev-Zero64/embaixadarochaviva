@@ -30,7 +30,7 @@ const Contact = () => {
                   <Phone className="text-church-primary" size={24} />
                   <div>
                     <h3 className="font-semibold">Telefone</h3>
-                    <p className="text-gray-600">(62) 99373-7958</p>
+                    <p className="text-gray-600">(62) 99626-4498</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
