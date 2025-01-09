@@ -1,4 +1,11 @@
 const MinisterioRochinha = () => {
+  const images = [
+    "/images/rochinha1.jpg",
+    "/images/rochinha2.jpg",
+    "/images/rochinha3.jpg",
+    "/images/rochinha4.jpg",
+  ];
+
   return (
     <div className="min-h-screen py-16 bg-church-accent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -23,28 +30,28 @@ const MinisterioRochinha = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/public/images/rochinha1.jpg"
+                src={images[0]}
                 alt="Ministério Rochinha"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/public/images/rochinha2.jpg"
+                src={images[1]}
                 alt="Ministério Rochinha"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/public/images/rochinha3.jpg"
+                src={images[2]}
                 alt="Ministério Rochinha"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/public/images/rochinha4.jpg"
+                src={images[3]}
                 alt="Ministério Rochinha"
                 className="w-full h-full object-cover"
               />
