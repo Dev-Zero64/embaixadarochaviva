@@ -14,7 +14,7 @@ const News = () => {
       title: "Edificando Uma Casa Sólida",
       date: "12 de Janeiro, 2025",
       description: "Campanha mês de Janeiro. Todo domingo uma palavra direcionada para a família. Pois, acreditamos que família é um presente de Deus, um alicerce construído com amor, união e fé.",
-      image: "/images/evento53.png",
+      image: "/images/eventocasa.png",
     },
     {
       id: 3,
