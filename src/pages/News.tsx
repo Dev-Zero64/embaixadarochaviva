@@ -4,26 +4,39 @@ const News = () => {
   const newsItems = [
     {
       id: 1,
+      title: "Dia da Família",
+      date: "08 de Fevereiro, 2025",
+      description: "Um dia de celebração das familias em Cristo Jesus, venha participar, você e toda sua família",
+      image: "/images/diafamilia.png"
+    },
+    {
+      id: 2,
+      title: "Edificando Uma Casa Sólida",
+      date: "12 de Janeiro, 2025",
+      description: "Campanha mês de Janeiro. Todo domingo uma palavra direcionada para a família. Pois, acreditamos que família é um presente de Deus, um alicerce construído com amor, união e fé.",
+      image: "/images/evento53.png"
+    },
+    {
+      id: 3,
       title: "Unção da Vida",
       date: "05 de Janeiro, 2025",
       description: "E servireis ao SENHOR vosso Deus, e ele abençoará o vosso pão e a vossa água; e Eu tirarei do meio de vós as enfermidades.Êxodo 23:25.",
       image: "/images/evento3.png"
     },
     {
-      id: 3,
+      id: 4,
       title: "Noite da Virada",
       date: "31 de Dezembro, 2024",
       description: "Venha você e sua família celebrar a Virada do Ano conosco!",
       image: "/images/newyear.png"
     },
     {
-      id: 2,
+      id: 5,
       title: "Projeto de Vida",
       date: "15 de Dezembro, 2024",
       description: "Participe da campanha projeto de vida, apresente a Deus os seus planos e ele os abençoará",
       image: "/images/projeto.png"
     },
-    
   ];
 
   return (
