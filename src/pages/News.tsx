@@ -67,8 +67,15 @@ const News: React.FC = () => {
       description: "Reunião de oração e intercessão para as mulheres. Agora, minha filha, não tenha medo; farei por você tudo o que me pedir. Todos os meus concidadãos sabem que você é mulher virtuosa. Rute 3:11.",
       image: "/images/elas.png",
     },
+    {
+      id: 8,
+      title: "Noite de Gratidão",
+      dateSort: "2024-07-28",
+      dateDisplay: "28 de Julho, 2024",
+      description: "Convidamos você a se juntar a nós para esse culto de gratidão… Um momento especial de agradecimento por todas as bênçãos recebidas… Venha celebrar conosco em um ambiente de fé e comunhão.",
+      image: "/images/gratidao1.png",
+    },
   ];
-
   // Ordena as notícias por data em ordem decrescente
   const sortedNewsItems = [...newsItems].sort(
     (a, b) => new Date(b.dateSort).getTime() - new Date(a.dateSort).getTime()
@@ -77,7 +84,6 @@ const News: React.FC = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold text-church-primary mb-8">Notícias e Eventos</h1>
-      
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {sortedNewsItems.map((item) => (
           <Card key={item.id} className="hover:shadow-lg transition-shadow duration-300">
