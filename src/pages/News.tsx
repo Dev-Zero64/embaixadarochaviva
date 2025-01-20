@@ -84,6 +84,15 @@ const News: React.FC = () => {
         "Convidamos você a se juntar a nós para esse culto de gratidão… Um momento especial de agradecimento por todas as bênçãos recebidas… Venha celebrar conosco em um ambiente de fé e comunhão.",
       image: "/images/gratidao1.png",
     },
+    {
+      id: 9,
+      title: "Encontro de Casais em Caldas Novas",
+      dateSort: "2025-03-28",
+      dateDisplay: "28 a 30 de Março, 2025",
+      description:
+        "Venha participar do nosso encontro de casais em Caldas Novas, um final de semana de muito amor e comunhão.",
+      image: "/images/casais.jpg",
+    },
   ];
 
   const sortedNewsItems = [...newsItems].sort(
