@@ -8,12 +8,13 @@ const Navbar = () => {
   const navItems = [
     { name: "Início", path: "/" },
     { name: "Notícias", path: "/noticias" },
+    //{ name: "Vídeos", path: "/videos" },
     { name: "Contato", path: "/contato" },
     { name: "Horários", path: "/horarios" },
     { name: "Endereço", path: "/endereco" },
     { name: "Ministério Rochinha", path: "/ministerio-rochinha" },
     { name: "Ativadores", path: "/ativadores" },
-    { name: "Cadastro", path: "/cadastro" },
+    //{ name: "Cadastro", path: "https://docs.google.com/forms/d/e/1FAIpQLSeyJopZp8OHiod2H8dIU5WlTQ7mvitmcJkjjbFfDYLkMHm3hA/viewform?pli=1&fbzx=-1167983075323601713"},
   ];
 
   return (
