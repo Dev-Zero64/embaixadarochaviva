@@ -21,7 +21,7 @@ const Registration = () => {
           <img
             src="/images/qrcode.jpg"
             alt="QR Code para formulário de cadastro"
-            className="w-64 h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+            className="w-64 h-64 object-fill rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
           />
         </a>
       </div>

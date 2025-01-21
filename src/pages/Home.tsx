@@ -1,36 +1,6 @@
 import { Link } from "react-router-dom";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
 
 const Home = () => {
-  const carouselImages = [
-    {
-      src: "/images/church5.jpg",
-      alt: "Igreja",
-      title: "Nossa Igreja"
-    },
-    {
-      src: "/images/reunion.jpg",
-      alt: "Reunião",
-      title: "Comunhão"
-    },
-    {
-      src: "/images/outside.png",
-      alt: "Exterior",
-      title: "Nosso Espaço"
-    },
-    {
-      src: "/images/pastor.jpg",
-      alt: "Pastor",
-      title: "Liderança"
-    }
-  ];
-
   const nextEvent = {
     title: "Qahal - Ajunta-me este povo!",
     date: "25 de janeiro, 2025",
@@ -41,27 +11,17 @@ const Home = () => {
 
   return (
     <div className="min-h-screen">
-      <section className="relative h-[60vh] bg-church-primary overflow-hidden">
-        <Carousel className="w-full h-full">
-          <CarouselContent>
-            {carouselImages.map((image, index) => (
-              <CarouselItem key={index} className="h-full">
-                <div className="relative h-full">
-                  <img
-                    src={image.src}
-                    alt={image.alt}
-                    className="absolute inset-0 w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-black/50 flex items-center justify-center text-white">
-                    <h2 className="text-4xl font-bold">{image.title}</h2>
-                  </div>
-                </div>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious className="left-4" />
-          <CarouselNext className="right-4" />
-        </Carousel>
+      <section className="relative h-[60vh] bg-church-primary">
+        <div className="relative h-full">
+          <img
+            src="/images/church5.jpg"
+            alt="Igreja"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/50 flex items-center justify-center text-white">
+            <h2 className="text-4xl font-bold">Nossa Igreja</h2>
+          </div>
+        </div>
       </section>
 
       {/* Banner do Próximo Evento */}
@@ -71,16 +31,16 @@ const Home = () => {
             Próximo Evento
           </h2>
           <Link to={nextEvent.link}>
-            <div className="relative group overflow-hidden rounded-lg shadow-lg max-w-4xl mx-auto hover:shadow-xl transition-shadow duration-300">
+            <div className="relative group overflow-hidden rounded-lg shadow-lg max-w-5xl mx-auto hover:shadow-xl transition-shadow duration-300">
               <img
                 src={nextEvent.image}
                 alt={nextEvent.title}
-                className="w-full h-[300px] object-cover group-hover:scale-105 transition-transform duration-300"
+                className="w-full h-[400px] object-cover group-hover:scale-105 transition-transform duration-300"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6 text-white">
-                <h3 className="text-2xl font-bold mb-2">{nextEvent.title}</h3>
-                <p className="text-lg mb-2">{nextEvent.date}</p>
-                <p className="text-sm opacity-90">{nextEvent.description}</p>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-8 text-white">
+                <h3 className="text-3xl font-bold mb-3">{nextEvent.title}</h3>
+                <p className="text-xl mb-2">{nextEvent.date}</p>
+                <p className="text-lg opacity-90">{nextEvent.description}</p>
               </div>
             </div>
           </Link>
