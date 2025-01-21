@@ -1,28 +1,29 @@
 import { Link } from "react-router-dom";
 
 const Registration = () => {
-  const handleQRCodeClick = () => {
-    window.open("https://forms.gle/your-form-url", "_blank");
-  };
+  const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeyJopZp8OHiod2H8dIU5WlTQ7mvitmcJkjjbFfDYLkMHm3hA/viewform";
 
   return (
-    <div className="min-h-screen py-12 px-4">
-      <div className="max-w-4xl mx-auto text-center">
-        <h1 className="text-4xl md:text-6xl font-bold text-church-primary mb-8">
-          Cadastro de Membros
-        </h1>
-        <p className="text-xl text-gray-600 mb-12">
-          Faça parte da nossa família! Escaneie o QR code abaixo ou clique nele para acessar o formulário de cadastro.
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-4xl font-bold text-church-primary mb-8 text-center">
+        Cadastro de Membros
+      </h1>
+      
+      <div className="max-w-2xl mx-auto text-center mb-8">
+        <p className="text-lg text-gray-700">
+          Seja bem-vindo à nossa família! Para se cadastrar como membro da Embaixada da Rocha Viva,
+          clique na imagem abaixo ou escaneie o QR Code para preencher o formulário.
         </p>
-        
-        <div className="flex justify-center mb-12">
+      </div>
+
+      <div className="flex justify-center">
+        <a href={formUrl} target="_blank" rel="noopener noreferrer">
           <img
-            src="/lovable-uploads/ad43283d-477a-4f15-ba63-d62fa2334d45.png"
-            alt="QR Code para cadastro"
-            className="w-64 h-64 cursor-pointer hover:scale-105 transition-transform duration-300"
-            onClick={handleQRCodeClick}
+            src="/images/qrcode.jpg"
+            alt="QR Code para formulário de cadastro"
+            className="w-64 h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
           />
-        </div>
+        </a>
       </div>
     </div>
   );
