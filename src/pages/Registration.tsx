@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Registration = () => {
-  const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeyJopZp8OHiod2H8dIU5WlTQ7mvitmcJkjjbFfDYLkMHm3hA/viewform";
+  const formUrl = "https://www.enuv.es/H1YGuo6";
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -19,7 +19,7 @@ const Registration = () => {
       <div className="flex justify-center">
         <a href={formUrl} target="_blank" rel="noopener noreferrer">
           <img
-            src="/images/qrcode.png"
+            src="/images/qrcodecadastro.png"
             alt="QR Code para formulário de cadastro"
             className="w-64 h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
           />

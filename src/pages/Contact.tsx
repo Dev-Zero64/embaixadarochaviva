@@ -23,7 +23,7 @@ const Contact = () => {
               <Mail className="text-church-primary" size={24} />
               <div>
                 <h3 className="font-semibold">Email</h3>
-                <p className="text-gray-600">contato@embaixadarochaviva.com</p>
+                <p className="text-gray-600">contato.embaixadarochaviva@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
