@@ -36,10 +36,7 @@ const Home = () => {
   // Imagens para o carrossel
   const bannerImages = [
     "/images/church5.jpg",
-    "/images/reunion.jpg",
-    "/images/drums.jpg",
-    "/images/choir.jpg",
-    "/images/outside.png"
+    "/images/reunion.jpg"
   ];
 
   return (
