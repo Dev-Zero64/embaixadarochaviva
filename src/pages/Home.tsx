@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Home = () => {
+  // Próximo Evento
   const nextEvent = {
     title: "Qahal - Ajunta-me este povo!",
     date: "25 de janeiro, 2025",
@@ -36,7 +37,8 @@ const Home = () => {
   // Imagens para o carrossel
   const bannerImages = [
     "/images/church5.jpg",
-    "/images/reunion.jpg"
+    "/images/reunion.jpg",
+    "/images/drums.jpg",
   ];
 
   return (
