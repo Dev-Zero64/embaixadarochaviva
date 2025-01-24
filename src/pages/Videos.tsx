@@ -5,17 +5,20 @@ const Videos = () => {
     {
       id: 1,
       title: "Apresentação das Crianças",
-      embedUrl: "https://www.youtube.com/embed/dZs0nAwXGR4?si=b7itEr3bcEaBo6pz"
+      embedUrl: "https://www.youtube.com/embed/dZs0nAwXGR4?si=b7itEr3bcEaBo6pz",
     },
   ];
 
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold text-church-primary mb-8">Vídeos</h1>
-      
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {videoItems.map((video) => (
-          <Card key={video.id} className="hover:shadow-lg transition-shadow duration-300">
+          <Card
+            key={video.id}
+            className="hover:shadow-lg transition-shadow duration-300"
+          >
             <CardHeader>
               <CardTitle className="mt-4">{video.title}</CardTitle>
             </CardHeader>

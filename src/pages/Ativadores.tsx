@@ -21,16 +21,17 @@ const Ativadores = () => {
               Reino de Deus.
             </p>
             <p className="text-lg text-gray-600">
-              Através de encontros semanais, momentos de louvor, estudos bíblicos
-              e atividades especiais, buscamos criar um ambiente onde os jovens
-              possam crescer em sua fé e desenvolver seus dons e talentos.
+              Através de encontros semanais, momentos de louvor, estudos
+              bíblicos e atividades especiais, buscamos criar um ambiente onde
+              os jovens possam crescer em sua fé e desenvolver seus dons e
+              talentos.
             </p>
           </div>
 
           <div className="grid grid-cols-2 gap-4">
             <div className="relative h-48 rounded-lg overflow-hidden shadow-lg">
               <img
-               src={images[2]}
+                src={images[2]}
                 alt="Ativadores"
                 className="w-full h-full object-cover"
               />

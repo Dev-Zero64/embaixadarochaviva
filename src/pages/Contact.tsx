@@ -23,7 +23,9 @@ const Contact = () => {
               <Mail className="text-church-primary" size={24} />
               <div>
                 <h3 className="font-semibold">Email</h3>
-                <p className="text-gray-600">contato.embaixadarochaviva@gmail.com</p>
+                <p className="text-gray-600">
+                  contato.embaixadarochaviva@gmail.com
+                </p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
@@ -32,9 +34,9 @@ const Contact = () => {
                 <h3 className="font-semibold">Endereço</h3>
                 <p className="text-gray-600">
                   Av. Independência, c, Alameda Alfredo Alves Pinto
-                  <br/>
+                  <br />
                   St. Faicalville, Goiânia - GO
-                  <br/>
+                  <br />
                   CEP: 74350-040
                 </p>
               </div>

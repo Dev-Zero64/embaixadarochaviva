@@ -8,9 +8,10 @@ const Home = () => {
   const nextEvent = {
     title: "Qahal - Ajunta-me este povo!",
     date: "25 de janeiro, 2025",
-    description: "Serão sete horas de adoração, oração e palavra. Deus tem algo tremendo para sua vida!",
+    description:
+      "Serão sete horas de adoração, oração e palavra. Deus tem algo tremendo para sua vida!",
     image: "/images/qahal.jpg",
-    link: "/noticias"
+    link: "/noticias",
   };
 
   // Configurações do carrossel
@@ -28,10 +29,10 @@ const Home = () => {
       {
         breakpoint: 1024,
         settings: {
-          dots: false
-        }
-      }
-    ]
+          dots: false,
+        },
+      },
+    ],
   };
 
   // Imagens para o carrossel
@@ -43,33 +44,33 @@ const Home = () => {
 
   return (
     <div className="min-h-screen">
-        {/* Carrossel Principal */}
-        <section className="relative h-[60vh] bg-church-primary overflow-hidden">
-          <Slider {...sliderSettings}>
-            {bannerImages.map((image, index) => (
-              <div key={index} className="relative h-[60vh]">
-                {/* Imagem com proporção natural (cobre o espaço sem distorcer) */}
-                <img
-                  src={image}
-                  alt={`Banner ${index + 1}`}
-                  className="w-full h-full object-cover"  // Alterado para object-cover
-                />
-                
-                {/* Overlay suave e texto */}
-                <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-black/50 flex items-center justify-center text-white z-10">
-                  <div className="text-center px-4">
-                    <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-xl">
-                      Bem-vindo à Embaixada da Rocha Viva
-                    </h1>
-                    <p className="text-xl md:text-2xl drop-shadow-lg">
-                      Uma igreja que transforma vidas através do amor de Cristo
-                    </p>
-                  </div>
+      {/* Carrossel Principal */}
+      <section className="relative h-[60vh] bg-church-primary overflow-hidden">
+        <Slider {...sliderSettings}>
+          {bannerImages.map((image, index) => (
+            <div key={index} className="relative h-[60vh]">
+              {/* Imagem com proporção natural (cobre o espaço sem distorcer) */}
+              <img
+                src={image}
+                alt={`Banner ${index + 1}`}
+                className="w-full h-full object-cover" // Alterado para object-cover
+              />
+
+              {/* Overlay suave e texto */}
+              <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-black/50 flex items-center justify-center text-white z-10">
+                <div className="text-center px-4">
+                  <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-xl">
+                    Bem-vindo à Embaixada da Rocha Viva
+                  </h1>
+                  <p className="text-xl md:text-2xl drop-shadow-lg">
+                    Uma igreja que transforma vidas através do amor de Cristo
+                  </p>
                 </div>
               </div>
-            ))}
-          </Slider>
-        </section>
+            </div>
+          ))}
+        </Slider>
+      </section>
 
       {/* Banner do Próximo Evento */}
       <section className="py-12 bg-church-accent">
@@ -121,7 +122,9 @@ const Home = () => {
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-                  <h3 className="text-2xl font-bold text-white">Ministério Rochinha</h3>
+                  <h3 className="text-2xl font-bold text-white">
+                    Ministério Rochinha
+                  </h3>
                 </div>
               </div>
             </Link>

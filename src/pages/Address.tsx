@@ -1,4 +1,3 @@
-
 const Address = () => {
   return (
     <div className="min-h-screen py-16 bg-church-accent">

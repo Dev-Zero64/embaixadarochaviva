@@ -1,5 +1,11 @@
 import { useState } from "react";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 interface NewsItem {
   id: number;
@@ -19,7 +25,8 @@ const News: React.FC = () => {
       title: "Dia da Família",
       dateSort: "2025-02-08",
       dateDisplay: "08 de fevereiro, 2025",
-      description: "Um dia de celebração das famílias em Cristo Jesus, venha participar, você e toda sua família.",
+      description:
+        "Um dia de celebração das famílias em Cristo Jesus, venha participar, você e toda sua família.",
       image: "/images/diafamilia.png",
     },
     {
@@ -101,7 +108,9 @@ const News: React.FC = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold text-church-primary mb-8">Notícias e Eventos</h1>
+      <h1 className="text-4xl font-bold text-church-primary mb-8">
+        Notícias e Eventos
+      </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {sortedNewsItems.map((item) => (
           <Card

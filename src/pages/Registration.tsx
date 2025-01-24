@@ -8,11 +8,12 @@ const Registration = () => {
       <h1 className="text-4xl font-bold text-church-primary mb-8 text-center">
         Cadastro de Membros
       </h1>
-      
+
       <div className="max-w-2xl mx-auto text-center mb-8">
         <p className="text-lg text-gray-700">
-          Seja bem-vindo à nossa família! Para se cadastrar como membro da Embaixada da Rocha Viva,
-          clique na imagem abaixo ou escaneie o QR Code para preencher o formulário.
+          Seja bem-vindo à nossa família! Para se cadastrar como membro da
+          Embaixada da Rocha Viva, clique na imagem abaixo ou escaneie o QR Code
+          para preencher o formulário.
         </p>
       </div>
 
