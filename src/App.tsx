@@ -10,10 +10,12 @@ import News from "./pages/News";
 import Videos from "./pages/Videos";
 import Registration from "./pages/Registration";
 import History from "./pages/History";
+import { ScrollToTop } from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
