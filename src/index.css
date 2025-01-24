@@ -48,3 +48,13 @@
 .nav-link:hover::after {
   @apply w-full;
 }
+
+/* Ajustes para os dots do carrossel */
+.slick-dots li button:before {
+  color: white !important;
+  font-size: 12px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #your-accent-color !important;
+}
