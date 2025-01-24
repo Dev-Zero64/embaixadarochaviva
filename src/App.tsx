@@ -9,6 +9,7 @@ import Ativadores from "./pages/Ativadores";
 import News from "./pages/News";
 import Videos from "./pages/Videos";
 import Registration from "./pages/Registration";
+import History from "./pages/History";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/noticias" element={<News />} />
           <Route path="/videos" element={<Videos />} />
           <Route path="/cadastro" element={<Registration />} />
+          <Route path="/historia" element={<History />} />
         </Routes>
       </Layout>
     </BrowserRouter>
