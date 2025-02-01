@@ -8,16 +8,19 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Embaixada da Rocha Viva</h3>
             <p className="text-sm">
-              Uma igreja comprometida com a palavra de Deus e o crescimento espiritual.
+              Uma igreja comprometida com a palavra de Deus e o crescimento
+              espiritual.
             </p>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-4">Contato</h4>
             <p className="text-sm mb-2">Telefone:(62) 99626-4498</p>
-            <p className="text-sm">Email: contato.embaixadarochaviva@gmail.com</p>
+            <p className="text-sm">
+              Email: contato.embaixadarochaviva@gmail.com
+            </p>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-4">Redes Sociais</h4>
             <div className="flex space-x-4">
@@ -48,10 +51,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="mt-8 pt-8 border-t border-gray-700 text-center">
           <p className="text-sm">
-            © {new Date().getFullYear()} Embaixada da Rocha Viva. Todos os direitos reservados.
+            © {new Date().getFullYear()} Embaixada da Rocha Viva. Todos os
+            direitos reservados.
           </p>
         </div>
       </div>
