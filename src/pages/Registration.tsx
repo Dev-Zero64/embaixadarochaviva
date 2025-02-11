@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const Registration = () => {
   const formUrl = "https://www.enuv.es/H1YGuo6";
 

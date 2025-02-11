@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 
 const nextEvent = {
-  title: "Dia da Família",
-  date: "08 de fevereiro, 2025",
+  title: "Encontro de Casais em Caldas Novas",
+  date: "28 a 30 de Março, 2025",
   description:
-    "Um dia de celebração das famílias em Cristo Jesus, venha participar, você e toda sua família.",
-  image: "/images/diafamilia.png",
+    "Venha participar do nosso encontro de casais em Caldas Novas, um final de semana de muito amor e comunhão..",
+  image: "/images/casais.jpg",
   link: "/noticias",
 };
 

@@ -7,7 +7,7 @@ import { LatestEvent } from "@/components/LatestEvent";
 const Home = () => {
   // Configurações do carrossel
   const sliderSettings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -40,14 +40,11 @@ const Home = () => {
         <Slider {...sliderSettings}>
           {bannerImages.map((image, index) => (
             <div key={index} className="relative h-[60vh]">
-              {/* Imagem com proporção natural (cobre o espaço sem distorcer) */}
               <img
                 src={image}
                 alt={`Banner ${index + 1}`}
-                className="w-full h-full object-cover" // Alterado para object-cover
+                className="w-full h-full object-cover"
               />
-
-              {/* Overlay suave e texto */}
               <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-black/50 flex items-center justify-center text-white z-10">
                 <div className="text-center px-4">
                   <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-xl">
@@ -62,7 +59,6 @@ const Home = () => {
           ))}
         </Slider>
       </section>
-
       <LatestEvent />
       <Destaques />
     </div>
