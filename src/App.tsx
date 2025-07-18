@@ -7,6 +7,7 @@ import Address from "./pages/Address";
 import MinisterioRochinha from "./pages/MinisterioRochinha";
 import Ativadores from "./pages/Ativadores";
 import News from "./pages/News";
+import Media from "./pages/Media";
 import Registration from "./pages/Registration";
 import { ScrollToTop } from "./components/ScrollToTop";
 
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/ministerio-rochinha" element={<MinisterioRochinha />} />
           <Route path="/ativadores" element={<Ativadores />} />
           <Route path="/noticias" element={<News />} />
+          <Route path="/midias" element={<Media />} />
           <Route path="/cadastro" element={<Registration />} />
         </Routes>
       </Layout>
