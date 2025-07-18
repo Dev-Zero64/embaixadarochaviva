@@ -9,9 +9,6 @@ import Ativadores from "./pages/Ativadores";
 import News from "./pages/News";
 import Media from "./pages/Media";
 import Registration from "./pages/Registration";
-import Auth from "./pages/Auth";
-import Admin from "./pages/Admin";
-import ProtectedRoute from "./components/ProtectedRoute";
 import { ScrollToTop } from "./components/ScrollToTop";
 
 const App = () => {
@@ -29,12 +26,6 @@ const App = () => {
           <Route path="/noticias" element={<News />} />
           <Route path="/midias" element={<Media />} />
           <Route path="/cadastro" element={<Registration />} />
-          <Route path="/auth" element={<Auth />} />
-          <Route path="/admin" element={
-            <ProtectedRoute>
-              <Admin />
-            </ProtectedRoute>
-          } />
         </Routes>
       </Layout>
     </BrowserRouter>
