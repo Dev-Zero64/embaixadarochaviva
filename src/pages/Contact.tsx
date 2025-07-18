@@ -1,8 +1,6 @@
 import { Phone, Mail, MapPin } from "lucide-react";
-
 const Contact = () => {
-  return (
-    <div className="min-h-screen py-16 bg-church-accent">
+  return <div className="min-h-screen py-16 bg-church-accent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-bold text-center text-church-primary mb-12">
           Entre em Contato
@@ -16,7 +14,7 @@ const Contact = () => {
               <Phone className="text-church-primary" size={24} />
               <div>
                 <h3 className="font-semibold">Telefone</h3>
-                <p className="text-gray-600">(62) 99626-4498</p>
+                <p className="text-gray-600">(62) 99626-4499</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
@@ -44,8 +42,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Contact;
