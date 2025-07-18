@@ -10,6 +10,7 @@ const Navbar = () => {
     //{ name: "História", path: "/historia" },
     { name: "Notícias", path: "/noticias" },
     //{ name: "Vídeos", path: "/videos" },
+    { name: "Midias", path: "/midias" },
     { name: "Contato", path: "/contato" },
     { name: "Horários", path: "/horarios" },
     { name: "Endereço", path: "/endereco" },
