@@ -21,7 +21,7 @@ const Media: React.FC = () => {
       <h1 className="text-4xl font-bold text-church-primary mb-8">
         Galeria de Mídias
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {sortedMediaItems.map((item) => (
           <Card
             key={item.id}
@@ -49,7 +49,7 @@ const Media: React.FC = () => {
       {/* Modal */}
       {selectedMedia && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="bg-white rounded-lg max-w-4xl w-full p-6 relative max-h-[90vh] overflow-auto">
+          <div className="bg-white rounded-lg max-w-lg w-full p-6 relative">
             <button
               onClick={() => setSelectedMedia(null)}
               className="absolute top-3 right-3 w-8 h-8 flex items-center justify-center bg-gray-200 hover:bg-gray-300 text-gray-600 hover:text-gray-800 rounded-full transition duration-300 z-10"
